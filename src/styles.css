@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  background-image: url(calculator.png);
+  background-size: cover;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#reset {
+  font-size: 3em;
+  color: purple;
+  background-color: yellow;
+  padding: 10px 40px;
+  border-radius: 50px;
+  border-color: black;
+  border-width: 5px;
+  cursor: grab;
+  margin-top: 100px;
+}
+
+#increase {
+  box-shadow: 50px, maroon;
+  font-size: 3em;
+  color: purple;
+  background-color: yellow;
+  padding: 10px 40px;
+  border-radius: 50px;
+  border-color: black;
+  border-width: 5px;
+  cursor: grab;
+  float: right;
+  margin-top: 100px;
+}
+
+#decrease {
+  box-shadow: 50px, maroon;
+  font-size: 3em;
+  color: purple;
+  background-color: yellow;
+  padding: 10px 40px;
+  border-radius: 50px;
+  border-color: black;
+  border-width: 5px;
+  cursor: grab;
+  float: left;
+  margin-top: 100px;
+}
+
+mark {
+  background-color: white;
+  padding: 10px 5px;
+  border-radius: 5%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.counter-container {
+  background-color: purple;
+  height: 100px;
+  width: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+}
+
+.value-container {
+  background-color: rgb(207, 214, 212);
+  height: 80px;
+  line-height: 80px;
+  width: 80px;
+  margin: auto;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  border-radius: 50%;
+  text-align: center;
+}
